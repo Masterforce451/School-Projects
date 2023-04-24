@@ -1,0 +1,368 @@
+body {
+    font-size: 18px;
+    background: linear-gradient(90deg, rgba(19, 86, 121) 10%, rgba(20,169,172,1) 50%, rgba(0,212,255,1) 90%);
+    font-family: 'Oxygen', sans-serif;
+    color:black;
+  }
+
+/*Hedaer kısmı*/
+
+#header { /*header için arka plan ve margin ayarlaması*/
+  background: linear-gradient(270deg, rgb(19, 86, 121) 10%, rgba(14,119,121,1) 50%, rgba(0,123,147,1) 90%);;
+  border: 0;
+  margin-bottom: 5%;
+}
+
+#website-logo { /*sitenin logosunun ayarlanması*/
+  background: url('../images/logo_website.jpg') no-repeat;
+  width: 150px;
+  height: 125px;
+  margin: 10px 0 10px 0;
+}
+
+.container { /*container sınıfında gerekli olan yerleri override ediyorum*/
+  width: 100%;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.navbar-brand {
+  padding-top: 50px;
+}
+
+.navbar-brand h1 {
+  font-family: 'Lora', serif;
+  color: rgb(0, 85, 128);
+  font-size: 3.5em;
+  font-weight: bold;
+  text-shadow: 3px 3px 3px aqua;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-brand a:hover {
+  text-decoration: none;
+}
+
+.col-sm-12 { /*.col her zaman işime düzgün yaramadığı için burası dahil gerekli yerlerde paddinglerini değiştiriyorum*/
+  padding-right: 30%;
+  padding-bottom: 100px;
+}
+
+.not-visible { /*ana menüde eleman saklamak için lazım*/
+  display: none;
+}
+
+.navbar-header {
+  width: 100%;
+}
+
+/*menü butonu için gerekli ayarlamalar*/
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+  float:right;
+}
+
+.navbar-default .navbar-collapse {
+  border-color: rgb(19, 16, 123);
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: rgb(25, 137, 138);
+}
+
+.navbar-default .navbar-toggle {
+  border-color: rgb(25, 137, 138);
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: rgb(25, 137, 138);
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: rgb(26, 37, 157);
+}
+
+.navbar-toggle {
+  display: inline-block;
+
+}
+
+/*ana sayfa*/
+
+#ancient-wonders-tile, #wonders-tile { /*ana sayfada 2 tane tile bulunuyor, ancient wonderlar ve wonderlar için birer tane*/
+  width: 100%;                         /*genel olarak onların özelliklerini burada ayarlıyorum, sayfa boyutuna göre değişiklik yaptığım yerler var*/
+  margin-top: 30px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+/*tileların üzerine gelince box-shadow ekledim*/
+#ancient-wonders-tile:hover { 
+  box-shadow: 3px 3px 15px 3px #119fbf;
+}
+
+#wonders-tile:hover {
+  box-shadow: 3px 3px 15px 3px #119fbf;
+}
+
+
+#ancient-wonders-tile span, #wonders-tile span { /*her iki tile için de ortak özellikler*/
+  position: absolute;
+  width: 100%;
+  bottom:0;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 3px 3px rgb(15, 87, 189);
+}
+
+.main-content { /*ana sayfanın kenarlarındaki padding kısımlarının büyüklüğü*/
+  padding-right: 18%;
+  padding-left: 18%;
+}
+
+.category-tile { /*kategorilerden birinde bulunan bir wonder için tile*/
+  position: relative;
+  border: 2px solid rgb(15, 87, 189);
+  overflow: hidden;
+  width: 375px;
+  height: 375px;
+  margin: 1
+  5px auto 15px;
+}
+
+.img-responsive {
+  width: 60%;
+  margin: auto;
+}
+
+.main-content .row {
+  padding-right: 0%;
+  padding-left: 0%;
+}
+
+.category-tile span { /*tile üzerinde bulunan yazı*/
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: 0.7;
+}
+
+.category-tile:hover {
+  box-shadow: 3px 3px 15px 3px #05465d;
+}
+
+#menu-categories-title + div {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.text-center {
+  color:#000;
+}
+
+.menu-item-tile {
+  margin-bottom: 25px;
+}
+
+.menu-categories-title {
+  text-align: center;
+  color:#094a69;
+  font-size: 60px;
+}
+
+
+/*footer kısmı*/
+.footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background: linear-gradient(270deg, rgba(19, 86, 121) 10%, rgba(14,119,121,1) 50%, rgba(0,123,147,1) 90%);;
+  border-top: 0;
+}
+
+#ogrenci, #ders { /*footer kısmı zaten 2 tane bloktan oluşuyor, öğrenci bilgileri ve ders içeriği kısmından*/
+  font-weight: bold;
+}
+
+
+/*sayfa boyutu 1200 piksel ve üzeri*/
+@media (min-width: 1200px) {
+  #website-logo { /*sitenin logosunun ayarlanması*/
+    margin: 10px 100px 10px 0;
+  }
+  #ancient-wonders-tile, #wonders-tile {
+    width: 144%;
+    height: 600px; ;
+  }
+
+  /*ana sayfada bulunan iki wonder tile'ı için arka plan*/
+  #ancient-wonders-tile {
+    background: url('../images/ancient_wonders_large.jpg') no-repeat;
+    background-position: center;
+  }
+  #wonders-tile {
+    background: url('../images/wonders_large.jpg') no-repeat;
+    background-position: center;
+  }
+}
+
+/*sayfa boyutu 1199 piksel ve 992 piksel arasında*/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .category-tile { 
+    position: relative;
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+    margin: 15px auto 15px;
+  }
+
+  .navbar-brand h1 {
+    font-size: 2.5em;
+  }
+
+  .col-sm-12 {
+    padding-right: 9%;
+    padding-left: 0;
+  }
+
+  #ancient-wonders-tile, #wonders-tile {
+    width: 700px;
+    height: 400px;
+  }
+  #ancient-wonders-tile {
+    background: url('../images/ancient_wonders_medium.jpg') no-repeat;
+    background-position: center;
+  }
+  #wonders-tile {
+    background: url('../images/wonders_medium.jpg') no-repeat;
+    background-position: center;
+  }
+
+  .navbar-brand {
+    font-size: 2vw;
+  }
+
+  #website-logo {
+    background: url('../images/logo_medium.jpg') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 50px 5px 0;
+  }
+}
+
+/*sayfa boyutu 991 piksel ve 768 piksel arasında*/
+@media (min-width: 768px) and (max-width: 991px) {
+  #website-logo {
+    background: url('../images/logo_medium.jpg') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 0 5px 0;
+  }
+
+  .main-content {
+    padding-right: 18%;
+    padding-left: 18%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .container {
+    width: auto;
+  }
+  .navbar-brand h1 {
+    font-size: 3.5em;
+    padding-top: 20px;
+  }
+  #ancient-wonders-tile, #wonders-tile {
+    height: 400px;
+  }
+  
+  #ancient-wonders-tile {
+    background: url('../images/ancient_wonders_medium.jpg') no-repeat;
+    background-position: center;
+  }
+  #wonders-tile {
+    background: url('../images/wonders_medium.jpg') no-repeat;
+    background-position: center;
+  }
+  
+  .col-sm-12 {
+    padding-right: 5%;
+  }
+
+  .navbar-brand {
+    padding-top:10px;
+    height: 100px;
+    font-size: 1.7vw;
+  }
+}
+
+/*Sayfa boyutu 767 pikselden de küçükse*/
+@media (max-width: 767px) {
+  #ancient-wonders-tile, #wonders-tile {
+    width: 96%;
+    height: 250px; ;
+    margin-bottom: 0;
+  }
+
+  #ancient-wonders-tile {
+    background: url('../images/ancient_wonders_small.jpg') no-repeat;
+    background-position: center;
+  }
+
+  #wonders-tile {
+    background: url('../images/wonders_small.jpg') no-repeat;
+    background-position: center;
+  }
+
+  .navbar-brand {
+    padding-top: 10px;
+    height: 100px;
+  }
+  
+  .navbar-brand h1 {
+    padding-top: 10px;
+    font-size: 6vw;
+    position: static;
+  }
+
+  .col-sm-12 {
+    padding-right: 15px;
+    padding-bottom: 100px;
+  }
+
+  .text-center {
+    font-size: 15px;
+  }
+
+  /*footer için gerekli kodlar*/
+  .footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .footer section hr {
+    width: 50%;
+  }
+}
