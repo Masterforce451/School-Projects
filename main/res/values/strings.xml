@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SE_Project</string>
+    <string name="language">en</string>
+    <string name="attractions">Attractions</string>
+
+    <string-array name="attraction_1">
+        <item name="name">Kordon</item>
+        <item name="information">The coastal road, surrounded by cafes, museums and galleries,
+            is a popular meeting point to watch the sunset.</item>
+        <item name="transportInfo">You can get off at Alsancak by ferry.</item>
+    </string-array>
+
+    <string-array name="attraction_2">
+        <item name="name">Kemeralti Bazaar</item>
+        <item name="information"> >Kemeralti is a district and bazaar in Izmir, Turkey,
+            starting from the Mezarlıkbaşı district in the Konak district and reaching Konak Square,
+            where commercial activities are intense. Fevzipaşa Street and
+            Eşrefpaşa Street form the land borders of the bazaar.</item>
+        <item name="transportInfo">You can get off at Konak by ferry.</item>
+    </string-array>
+
+    <string-array name="attraction_3">
+        <item name="name">Izmir Clock Tower</item>
+        <item name="information"> Izmir Clock Tower, in Izmir, the Ottoman sultan II. It is a historical
+            clock tower built in 1901 to celebrate the 25th anniversary of Abdülhamid\'s accession to the throne.
+            It is one of the many clock towers built in the same period in the Ottoman provinces as required by the will of Abdulhamid.</item>
+        <item name="transportInfo">You can get off at Konak by ferry.</item>
+    </string-array>
+
+    <string-array name="attraction_4">
+        <item name="name">Historical Elevator</item>
+        <item name="information"> The Historical Elevator is a historical building located in Izmir.
+            It is an elevator tower in Turgut Reis Neighborhood with two elevators operating between
+            Mithatpaşa Street, one 58 m higher than the other, and Şehit Nihatbey Street. The elevator,
+            which was built by Jewish businessman "Nesim Levi" in 1907, was built to provide fast and easy
+            transportation between two districts,from one to the other with 155 steps.</item>
+        <item name="transportInfo">You can get off at Karataş stop with Halkapınar-Fahrettin Altay tram.</item>
+    </string-array>
+
+    <string-array name="attraction_5">
+        <item name="name">Izmir Archeology and Ethnography Museum</item>
+        <item name="information"> İzmir Archeology Museum is a museum where archaeological
+            artifacts found in and around İzmir are exhibited. The museum, which was opened to visitors
+            in Aya Vukla Church in 1927, has been serving in the modern museum building in Bahribaba Park
+            in Konak since 1984. The finds unearthed during excavations in various regions of the Aegean
+            Region such as Bayraklı, Ephesus, Bergama, Milet, Klazomenai, Teos and Iasos and shedding
+            light on the history of Western Anatolia are exhibited in the museum and in the museum garden.</item>
+        <item name="transportInfo">You can reach it by taking the buses numbered 15,27,43,92,152,156 and 887.</item>
+    </string-array>
+
+    <string-array name="attraction_6">
+        <item name="name">Izmir Kulturpark</item>
+        <item name="information"> Kulturpark is a park located in Izmir, Turkey.</item>
+        <item name="transportInfo">You can reach it by taking the bus numbered 63 in Konak</item>
+    </string-array>
+
+    <string-array name="attraction_7">
+        <item name="name">Ephesus Ancient City</item>
+        <item name="information"> Ephesus was an ancient Greek city located on the western coast of Anatolia,
+            3 km from today\'s Selçuk district, and later an important Roman city.
+            It was one of the twelve cities of Ionia during the classical Greek period.
+            Its foundation dates back to the Neolithic Age 6000 BC.</item>
+        <item name="transportInfo">You can get off at Selçuk Station of the Basmane-Selçuk suburban train.</item>
+    </string-array>
+
+    <string-array name="attraction_8">
+        <item name="name">Maritime Museum</item>
+        <item name="information"> İzmir Museum Ships or Inciralti Maritime Museum is a maritime museum
+            located in İzmir, Turkey. Objects related to the social, historical and economic
+            development of maritime are exhibited on three museum ships anchored at Inciralti Pier
+            in the town of Balçova. The museum opened to the public on July 1, 2007.</item>
+        <item name="transportInfo">You can get off at the Fahrettin Altay metro stop and take the buses numbered 311,480 and 486.</item>
+    </string-array>
+
+    <string-array name="attraction_9">
+        <item name="name">Bostanlı Sunset Observation Terrace</item>
+        <item name="information"> Standing out with its impressive design,
+            the "Bostanlı Sunset Viewing Terrace" offers a wonderful atmosphere where you can lie down against the Gulf view and watch
+            the sunset accompanied by the gentle breeze. During your Izmir trip,
+            do not forget to see the Bostanlı Sunset View Terrace,
+            which promises unforgettable memories.</item>
+        <item name="transportInfo">You can reach by ferry, İZBAN or bus.</item>
+    </string-array>
+
+    <string-array name="attraction_10">
+        <item name="name">Teos Ancient City</item>
+        <item name="information"> Teos, located by the sea one kilometer south of Sığacık Village,
+            5 km from Seferihisar District of Izmir, was founded as an Ionian colony in 1000 BC.
+            Its founder is known as Athames, the son of Dioysos. Teos first remained under the Persian rule,
+            then the Lydians and then again the Persians. With the Ions, Teos gained its independence
+            and became an important place in architecture and trade.</item>
+        <item name="transportInfo">You can reach Seferihisar by taking the buses numbered 730, 739.</item>
+    </string-array>
+
+    <string-array name="attraction_11">
+        <item name="name">Perforated Bay</item>
+        <item name="information">It is located in the south of Cesme, 13 kilometers from the center.
+            What makes Delikli Bay special is the natural rocks in the sea. The name of the
+            bay comes from the cavities of the rocks that emerged as a result of this natural formation.</item>
+        <item name="transportInfo">You can walk 4 kilometers to the beach from Alaçalı Port.</item>
+    </string-array>
+
+    <string-array name="attraction_12">
+        <item name="name">Cesme Cleopatra Bay</item>
+        <item name="information">Cleopatra Bay, one of the hidden coves of Cesme,
+            is located within the borders of Alaçatı. The bay,
+            which is thought to have taken its name from the fine sands of the beach, is surrounded by rocks.</item>
+        <item name="transportInfo">You can reach there by going to Alaçatı Port and taking the road inside Özpamir Sitesi.</item>
+    </string-array>
+
+    <string-array name="attraction_13">
+        <item name="name">Altinkum Beach</item>
+        <item name="information"> Altinkum Beach is ten minutes away from the center of Cesme.
+            The beach is 500 meters long and 15 meters wide. The beach takes its name from its golden sand.
+            Sea water is the opposite of other hot spring beaches,
+            it is extremely cold even on the hottest days of summer.</item>
+        <item name="transportInfo">You can reach there by using Altınkum minibuses in Çeşme</item>
+    </string-array>
+
+    <string-array name="attraction_14">
+        <item name="name">Ege Bilmuh</item>
+        <item name="information">Turkey\'s best computer engineering department</item>
+        <item name="transportInfo">You can reach it by getting off at the Bornova stop of the metro.</item>
+    </string-array>
+</resources>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SE_Project</string>
+    <string name="language">tr</string>
+    <string name="attractions">Turistik Yerler</string>
+
+    <string-array name="attraction_1">
+        <item name="name" >Kordon</item>
+        <item name="information">Kafeler, müzeler ve galerilerle çevrili, gün batımını izlemek için popüler bir buluşma noktası olan sahil yolu</item>
+        <item name="transportInfo">Vapur ile Alsancak\'ta inebilirsiniz.</item>
+    </string-array>
+
+    <string-array name="attraction_2">
+        <item name="name">Kemeraltı Çarşısı</item>
+        <item name="information"> Kemeraltı, Türkiye\'nin İzmir şehrinde, Konak ilçesindeki Mezarlıkbaşı semtinden başlayarak Konak Meydanı\'na kadar ulaşan ve ticari faaliyetlerin yoğun şekilde yaşandığı semt ve çarşıdır.
+                                  Fevzipaşa Caddesi ve Eşrefpaşa Caddesi çarşının kara sınırlarını oluşturur.</item>
+        <item name="transportInfo">Vapur ile Konak\'ta inebilirsiniz.</item>
+    </string-array>
+
+    <string-array name="attraction_3">
+        <item name="name">İzmir Saat Kulesi</item>
+        <item name="information"> İzmir Saat Kulesi, İzmir\'de Osmanlı padişahı II. Abdülhamid\'in tahta çıkışının 25. yıldönümünü kutlamak için 1901\'de inşa edilmiş tarihî saat kulesidir.
+                                  25 metre yüksekliğinde ve dört katlı olan kule, Sultan II. Abdülhamid\'in iradesi gereği Osmanlı vilayetlerinde aynı dönemde meydana getirilmiş birçok saat kulesinden birisidir.</item>
+        <item name="transportInfo">Vapur ile Konak\'ta inebilirsiniz.</item>
+    </string-array>
+
+    <string-array name="attraction_4">
+        <item name="name">Tarihi Asansör</item>
+        <item name="information"> Tarihî Asansör, İzmir\'de bulunan tarihsel bir yapıdır. Turgut Reis Mahallesi\'nde,
+                biri diğerinden 58 m yüksekte olan Mithatpaşa Caddesi ile, Şehit Nihatbey Caddesi\'nin arasında
+                işleyen iki asansörü barındıran asansör kulesidir. 1907 yılında Musevi iş insanı
+                "Nesim Levi" tarafından yaptırılan asansör, birinden diğerine 155 basamakla ulaşılan iki semt arasında hızlı
+                ve kolay ulaşım sağlama amacıyla yaptırılmıştır</item>
+        <item name="transportInfo">Halkapınar-Fahrettin Altay tramvayı ile Karataş durağında inebilirsiniz.</item>
+    </string-array>
+
+    <string-array name="attraction_5">
+        <item name="name">İzmir Arkeoloji ve Etnografya Müzesi</item>
+        <item name="information"> İzmir Arkeoloji Müzesi, İzmir ili ve çevresinde bulunan arkeolojik eserlerin
+                sergilendiği müze. 1927 yılında Aya Vukla Kilisesi\'nde ziyarete açılan müze, 1984\'ten beri Konak\'ta
+                Bahribaba Parkı içindeki modern müze binasında hizmet verir. Bayraklı, Efes, Bergama, Milet, Klazomenai,
+                Teos ve İasos gibi Ege Bölgesi çeşitli bölgelerinde kazılarda ortaya çıkarılan ve Batı Anadolu tarihine ışık
+                tutan buluntular müzede ve müze bahçesinde sergilenir.</item>
+        <item name="transportInfo">15,27,43,92,152,156 ve 887 numaralı otobüslere binerek ulaşabilirsiniz.</item>
+    </string-array>
+
+    <string-array name="attraction_6">
+        <item name="name">İzmir Kültürpark</item>
+        <item name="information"> Kültürpark, Türkiye\'nin İzmir şehrinde bulunan bir parktır.</item>
+        <item name="transportInfo">Konak\'tan 63 numaralı otobüsle ulaşabilirsiniz.</item>
+    </string-array>
+
+    <string-array name="attraction_7">
+        <item name="name">Efes Antik Kenti</item>
+        <item name="information"> Efes Anadolu\'nun batı kıyısında, bugünkü Selçuk ilçesinin 3 km uzağında bulunan,
+                                daha sonra önemli bir Roma kenti olan antik bir Yunan kentiydi. Klasik Yunan döneminde İyonya\'nın oniki
+                                şehrinden biriydi. Kuruluşu Cilalı Taş Devri MÖ 6000 yıllarına dayanır.</item>
+        <item name="transportInfo">Basmane-Selçuk banliyö treninin Selçuk Garı\'nda inebilirsiniz.</item>
+    </string-array>
+
+    <string-array name="attraction_8">
+        <item name="name">Deniz Müzesi</item>
+        <item name="information"> İzmir Müze Gemiler ya da İnciraltı Deniz Müzesi,
+                                Türkiye\'nin İzmir şehrinde yer alan bir denizcilik müzesidir.
+                                Balçova ilçesindeki İnciraltı İskelesi\'nde demir atmış üç müze gemide denizciliğin sosyal,
+                                tarihsel ve ekonomik gelişimine ilişkin nesneler sergilenmektedir. Müze, 1 Temmuz 2007\'de ziyarete açıldı.</item>
+        <item name="transportInfo">Fahrettin Altay metro durağında inip 311,480 ve 486 numaralı otobüslere binerek ulaşabilirsiniz.</item>
+    </string-array>
+
+    <string-array name="attraction_9">
+        <item name="name">Bostanlı Günbatımı Seyir Terası</item>
+        <item name="information"> Etkileyici tasarımıyla dikkat çeken "Bostanlı Gün Batımı Seyir Terası",
+                                    Körfez manzarasına karşı uzanıp, yumuşak esen imbatın eşliğinde güneşin batışını izleyebileceğiniz
+                                    harika bir atmosfer sunuyor. İzmir gezinizde, unutulmaz anılar vaat eden Bostanlı  Gün Batımı Seyir Terasını
+                                    görmeyi ihmal etmeyin</item>
+        <item name="transportInfo">Vapur, İZBAN ya da otobüsle ulaşabilirsiniz.</item>
+    </string-array>
+
+    <string-array name="attraction_10">
+        <item name="name">Teos Antik Kenti</item>
+        <item name="information"> İzmir\'in Seferihisar İlçesine 5 km uzaklıktaki Sığacık Köyü\'nün bir
+                                    kilometre güneyinde deniz kenarında bulunan Teos MÖ 1000 yıllarında İon kolonisi olarak kurulmuştur.
+                                    Kurucusu Dioysos\'un oğlu Athames olarak bilinmektedir. Teos önce Pers yönetiminde kalmış, sonra Lidyalıların,
+                                    ardından yine Pers yönetimine geçmiştir. İonlarla birlikte Teos bağımsızlığını kazanmış ve mimari alan ile
+                                    ticarette önemli bir yer haline gelmiştir</item>
+        <item name="transportInfo">Seferihisar’dan 730, 739 numaralı otobüslere binerek ulaşabilirsiniz.</item>
+    </string-array>
+
+    <string-array name="attraction_11">
+        <item name="name">Delikli Koy</item>
+        <item name="information">Çeşme\'nin güneyinde, merkeze 13 kilometre uzaklıkta yer almaktadır.
+                                    Delikli Koyu özel kılan deniz içerisindeki doğal kayalıklardır.
+                                    Koyun ismi de bu doğal oluşum sonucu ortaya çıkan kayaların oyuklarından gelmektedir</item>
+        <item name="transportInfo">Alaçalı Port\'tan 4 kilometre sahile doğru yürüyerek ulaşabilirsiniz.</item>
+    </string-array>
+
+    <string-array name="attraction_12">
+        <item name="name">Çeşme Kleopatra Koyu</item>
+        <item name="information">Çeşme\'nin saklı kalmış koylarından Kleopatra Koyu Alaçatı sınırlarında yer almaktadır.
+                                    Adını plajdaki ince kumlardan aldığı düşünülen koyun etrafı kayalarla çevrilidir.</item>
+        <item name="transportInfo">Alaçatı Port\'tan Özpamir Sitesi\'nin içerisindeki yoldan ulaşabilirsiniz.</item>
+    </string-array>
+
+    <string-array name="attraction_13">
+        <item name="name">Altınkum Plajı</item>
+        <item name="information"> Altınkum Plajı, Çeşme merkeze on dakika uzaklıkta bulunmaktadır. 500 metre uzunluğundaki plaj 15 metre genişliğindedir. Plaj, adını altın rengi kumundan almaktadır.
+                                    Deniz suyu diğer ılıca sahillerinin tam tersi niteliktedir, yazın en sıcak günlerinde bile son derece soğuktur.</item>
+        <item name="transportInfo">Çeşme\'den Altınkum dolmuşlarına binerek ulaşabilirsiniz.</item>
+    </string-array>
+
+    <string-array name="attraction_14">
+        <item name="name">Ege Üniversitesi Bilgisayar Mühendisliği Bölümü</item>
+        <item name="information"> Türkiye\'nin en iyi bilgisayar mühendisliği bölümü.</item>
+
+        <item name="transportInfo">Metronun Bornova durağında inerek ulaşabilirsiniz.</item>
+    </string-array>
+
+
+</resources>
