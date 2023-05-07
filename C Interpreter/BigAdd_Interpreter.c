@@ -3,7 +3,7 @@
 #include <string.h>
 #include <ctype.h>
 #include <stdbool.h>
-/*
+
 int keywords(char array[]) { //checks if the string is a keyword
     if (strcmp("int", array) == 0 || strcmp("move", array) == 0 || strcmp("to", array) == 0 || strcmp("loop", array) == 0 || strcmp("times", array) == 0 ||
         strcmp("out", array) == 0 || strcmp("newline", array) == 0 || strcmp("add", array) == 0 || strcmp("sub", array) == 0 || strcmp("from",array) == 0)
@@ -785,4 +785,4 @@ int main() {
         fclose(lx_file);
         return 0;
     }
-}*/
+}
